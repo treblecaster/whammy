@@ -31,3 +31,7 @@ def start(beats, noteval, bpm):
 
 def stop():
     WhammyFilter.setMute(whammy, pygame.midi.time() + 1000)       
+
+if __name__ == '__main__':
+    start(4,4,100)
+
